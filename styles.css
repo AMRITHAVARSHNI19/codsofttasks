@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: url("../images/jab-transformed.png") no-repeat top center/cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.about {
+    background: url("../images/about-background.png") no-repeat top center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.person-1,
+.person-2,
+.person-3 {
+    margin: 20px;
+}
+
+.person-1 img,
+.person-2 img,
+.person-3 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.role {
+    font-size: 16px;
+    color: #666;
+}
+
+.dark {
+    background-color: #1e272e;
+}
+
+.dark .bar {
+    background-color: #fff;
+}
+
+.dark p {
+    color: #fff;
+}
+
+.dark h3 {
+    color: #fff;
+}
+
+.dark nav {
+    background-color: #1e272e;
+    box-shadow: 2px 3px 2px #111010;
+}
+
+.dark ul {
+    background-color: #1e272e;
+}
+
+.dark .name {
+    color: var(--primary-color);
+}
+
+.dark .role {
+    color: var(--secondary-color);
+}
+
+.dark footer {
+    color: #fff;
+    border-top: 1px solid #111010;
+    box-shadow: 0px -2px 3px #111010;
+}
+
+.checkbox {
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
